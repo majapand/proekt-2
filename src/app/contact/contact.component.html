@@ -1,0 +1,79 @@
+<body id="body2">
+    <p class="special">Maja Pandiloska</p>
+  
+    <div class="navbar">
+        <a [routerLink]="['/contact']" routerLinkActive="active">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">For You
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a [routerLink]="['/survey']" routerLinkActive="active">Survey</a>
+            <a [routerLink]="['/quiz']" routerLinkActive="active">Quiz</a>
+          </div>
+        </div>
+        <a [routerLink]="['/blog']" routerLinkActive="active">Blog</a>
+        <a [routerLink]="['/gallery']" routerLinkActive="active">Gallery</a>
+        <div class="dropdown">
+          <button class="dropbtn">Favourite
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a [routerLink]="['/movies']" routerLinkActive="active">Movies, TV shows, Music</a>
+            <a [routerLink]="['/food']" routerLinkActive="active">Food</a>
+          </div>
+        </div>
+        <a [routerLink]="['/home']" routerLinkActive="active">Home</a>
+      </div>
+      
+  
+  <h1>Contact</h1>
+  
+  <section class="contact-me">
+    <div class="row">
+        <div class="contact-col">
+             <div>
+                 <i class="fa fa-home"></i>
+                 <span>
+                 <h5>Gave Lazareski 32, Gostivar</h5>
+                 </span>
+             </div>
+             <div>
+                 <i class="fa fa-phone"></i>
+                 <span>
+                 <h5>+389 78123456</h5>  
+                 </span>
+                               
+             </div>
+  
+             <div>
+                 <i class="fa fa-envelope-o"></i>
+                 <span>
+                 <h5>maja@gmail.com</h5>
+                 </span>
+                     
+             </div>
+        </div>
+  
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter your name.." required>
+                <input type="email" placeholder="Enter yourm email" required>
+                <input type="text" placeholder="Subject" required>
+                 <textarea rows="8" placeholder="Text" required></textarea>
+                 <button onclick="myFunction()">Send</button>
+              
+             </form>
+         </div>
+        </div>
+  </section>
+  
+  
+  <div class="icons">
+    <a href="https://www.facebook.com/maja.pandiloska/"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.instagram.com/majapandiloska/"><i class="fa fa-instagram"></i></a>
+    <a href="https://twitter.com/pm9_pm10"><i class="fa fa-twitter"></i></a>
+    <a href="https://github.com/majapand/oweb"><i class="fa fa-github"></i></a>
+  </div>
+  
+  </body>
